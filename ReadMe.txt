@@ -1,0 +1,1 @@
+1) Navigate to  MedicalJournals\MedicalJournalWebApp\Web.config and change PathToUploadFiles key in appsettings to a local path on the disk

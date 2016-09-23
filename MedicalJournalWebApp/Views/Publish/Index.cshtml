@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Business.Entites.Journal>
+@{
+    ViewBag.Title = "List Journals";
+}
+
+<p>
+    <h2>List of Journals. Click on upload to upload a new Journal</h2>
+    @Html.ActionLink("Upload New", "Upload")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.JournalName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.JournalName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.ActionLink("Details", "Details", new {  id=item.JournalId }) 
+            </td>
+        </tr>
+    }
+
+</table>
+

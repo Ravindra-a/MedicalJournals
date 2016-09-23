@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Business.Entites.Journal>
+
+@{
+    ViewBag.Title = "Index";
+}
+<p>
+    <h2>Welcome to medical journals</h2>
+</p>
+@if (Model != null && Model.Count() > 0)
+{
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.JournalName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.JournalName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.ActionLink("Subscribe", "Subscribe", new { publisherId = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+}
+else
+{
+    <label id="Message">No Journals published!!</label>
+}

@@ -1,0 +1,14 @@
+E:\Handson\MedicalJournals\Business.Entites\bin\Debug\Business.Entites.dll.config
+E:\Handson\MedicalJournals\Business.Entites\bin\Debug\Business.Entites.dll
+E:\Handson\MedicalJournals\Business.Entites\bin\Debug\Business.Entites.pdb
+E:\Handson\MedicalJournals\Business.Entites\bin\Debug\EntityFramework.dll
+E:\Handson\MedicalJournals\Business.Entites\bin\Debug\EntityFramework.SqlServer.dll
+E:\Handson\MedicalJournals\Business.Entites\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Handson\MedicalJournals\Business.Entites\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Handson\MedicalJournals\Business.Entites\bin\Debug\EntityFramework.xml
+E:\Handson\MedicalJournals\Business.Entites\bin\Debug\EntityFramework.SqlServer.xml
+E:\Handson\MedicalJournals\Business.Entites\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\Handson\MedicalJournals\Business.Entites\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Handson\MedicalJournals\Business.Entites\obj\Debug\Business.Entites.dll
+E:\Handson\MedicalJournals\Business.Entites\obj\Debug\Business.Entites.pdb
+E:\Handson\MedicalJournals\Business.Entites\obj\Debug\Business.Entites.csprojResolveAssemblyReference.cache
